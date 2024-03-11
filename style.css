@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Roboto";
+  color: black;
+  background-color: #fdedda;
+}
+
+/* form */
+
+::placeholder {
+  color: #999; /* Màu xám */
+}
+
+.effect-1 {
+  width: 30vw;
+  border: 0;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.effect-1:focus {
+  outline: none;
+}
+
+.effect-1 ~ .focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: orangered;
+  transition: 0.4s;
+}
+.effect-1:focus ~ .focus-border {
+  width: 100%;
+  transition: 0.4s;
+}
+
+.form-group {
+  float: left;
+  position: relative;
+}
+
+/* section */
+.section {
+  margin-top: 15px;
+}
+
+.section .row {
+  display: flex;
+  justify-content: center;
+}
+
+/* section-1 */
+
+.section-1 .col-10 {
+  padding: 0;
+  background-color: #fff;
+}
+
+/* section-2 */
+.section-2 .b-top {
+  height: 10px;
+  background-color: orange;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.section-2 .col-10 {
+  background-color: white;
+  padding: 0;
+  border-radius: 8px;
+  border-right: 1px solid rgb(218, 220, 224);
+  border-bottom: 1px solid rgb(218, 220, 224);
+  border-left: 1px solid rgb(218, 220, 224);
+}
+
+.section-2 .title {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.section-2 .title p {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.section-2 .content {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.section-2 .content .de-muc .title-demuc p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.section-2 .content .de-muc .content-demuc p {
+  font-size: 15px;
+  margin: 0;
+}
+
+/* section-3 */
+.section-3 .col-10 {
+  background-color: white;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid rgb(218, 220, 224);
+}
+
+.section-3 .col-10 .title {
+  padding: 20px;
+  font-weight: 500;
+}
+
+/* section-4 */
+
+.section-4 .row .col-10 {
+  border-radius: 8px;
+  border: 1px solid rgb(218, 220, 224);
+  background-color: #fff;
+  padding: 30px;
+}
+
+/* section-5 */
+
+/* section-6 */
+
+/* section-7 */
+
+
+.section-7 .col-10 {
+  background-color: white;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid rgb(218, 220, 224);
+}
+
+.section-7 .col-10 .title {
+  padding: 20px;
+  font-weight: 500;
+}
+
+.section-submit{
+  margin-bottom: 200px;
+}
+
+/* section-8 */
+
+.section-8{
+  display: none;
+}
+
+.section-8 .col-10{
+  border-radius: 8px;
+  border: 1px solid rgb(218, 220, 224);
+  background-color: #fff;
+  
+}
+
+.section-8 .title {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.section-8 .title p {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.section-8 .content {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+
+
